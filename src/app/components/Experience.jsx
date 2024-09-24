@@ -1,3 +1,7 @@
+"use client";
+import React from "react";
+
+
 const Experience = () => {
     return (
         <section className="text-white " id="about">
@@ -24,9 +28,9 @@ const Experience = () => {
                 </h3>
                 <p className="text-sm text-gray-300 mb-4">June 2022 – August 2022</p>
                 <ul className="list-disc pl-6 space-y-2">
-                    <li>Executed multiple chefs' orders efficiently, maintaining high-quality standards in a fast-paced environment.</li>
-                    <li>Ensured prompt and accurate delivery of up to 4000 customers' orders while keeping customer satisfaction.</li>
-                    <li>Managed and resolved customers' order issues promptly and professionally.</li>
+                    <li>Executed multiple chefs&apos; orders efficiently, maintaining high-quality standards in a fast-paced environment.</li>
+                    <li>Ensured prompt and accurate delivery of up to 4000 customers&apos; orders while keeping customer satisfaction.</li>
+                    <li>Managed and resolved customers&apos; order issues promptly and professionally.</li>
                 </ul>
             </div>
 
@@ -37,7 +41,7 @@ const Experience = () => {
                 </h3>
                 <p className="text-sm text-gray-300 mb-4">July 2022 – August 2022</p>
                 <ul className="list-disc pl-6 space-y-2">
-                    <li>Facilitated children's reading development by providing individualized support and encouragement.</li>
+                    <li>Facilitated children&apos;s reading development by providing individualized support and encouragement.</li>
                     <li>Taught coding techniques on Scratch to children, fostering their interest and proficiency in technology.</li>
                     <li>Organized activities and reading sessions to promote learning and reading among children.</li>
                 </ul>

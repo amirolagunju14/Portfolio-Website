@@ -27,7 +27,7 @@ const projectsData = [
     id: 3,
     title: "Conways Game of Life",
     description: "Project 3 description",
-    image: "/images/conway.png",
+    image: "/images/Conway.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",

@@ -21,7 +21,10 @@ const EmailSection = () => {
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          try my best to get back to you!<br/>
+          <br/>
+          Contact me at:
+          <br/>amirolagunju14@gmail.com | olagunj1@ualberta.ca
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/amirolagunju14">

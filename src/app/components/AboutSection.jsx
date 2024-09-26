@@ -20,22 +20,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>SolidWorks</li>
         <li>React</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Arduino</li>
+        <li>MS Office</li>
       </ul>
     ),
   },
@@ -54,9 +45,9 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" alt="about image" width={500} height={500} />
+        <Image src="/images/aboutMe.png" alt="about image" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold font-serif text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
           I am currently pursuing a Mechanical Engineering degree at the University of Alberta, enhancing myself to engage in innovative industries around the world. My journey in programming has led me to develop proficient skills in Python, Java and C++. My passion for engineering goes beyond code, as I continue to increase my knowledge on current topics in the everchanging engineering world.
           </p>
@@ -74,13 +65,6 @@ const AboutSection = () => {
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">

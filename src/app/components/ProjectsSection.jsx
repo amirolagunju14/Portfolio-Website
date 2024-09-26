@@ -8,7 +8,11 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: [
+      "Designed and Developed a fully responsive personal portfolio website using React and Next.js, showcasing projects, skills, and achievements.",
+      "Integrated GitHub and LinkedIn APIs to dynamically display latest projects and social profiles, keeping content updated in real-time.",
+      "Deployed the portfolio on Vercel, utilizing CI/CD pipelines for automated builds and deployment on each GitHub push.",
+    ],
     image: "/images/portfolioIcon.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -17,7 +21,12 @@ const projectsData = [
   {
     id: 2,
     title: "LK Cokoino 4DF Robot Arm for Arduino ",
-    description: "Project 2 description",
+    description: [ 
+      "Assembled a robot arm using multiple servos and wiring components from LK Cokoino.",
+      "Developed and processed code on Arduino to manage various functions, including servo power and controller operations.",
+      "In Progress: Integrating the robotic arm onto a mobile car to extend its capabilities."
+    ],
+    
     image: "/images/RobotArm.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -26,7 +35,11 @@ const projectsData = [
   {
     id: 3,
     title: "Conways Game of Life",
-    description: "Project 3 description",
+    description: [
+      "Developed an interactive visualization tool to display the evolution of cellular automata patterns in real-time, enhancing the understanding and exploration of the game's dynamics.",
+      "Optimized the algorithm for calculating cell transitions to improve performance and scalability, allowing for simulations of larger grids and longer time frames.",
+      "Utilizes the programming language C++."
+    ],
     image: "/images/Conway.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -54,7 +67,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold font-serif text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
@@ -67,11 +80,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

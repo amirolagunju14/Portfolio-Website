@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <section className="text-white " id="about">
             {/* Section Title */}
-            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+            <h2 className="text-center text-4xl font-bold font-serif text-white mt-4 mb-8 md:mb-12">
                 Experience
             </h2>
             {/* Third Experience Section */}
